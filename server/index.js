@@ -39,7 +39,7 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT;
 
 app.listen(port, () => {
   console.log(`${port}번 포트에서 대기 중`);
