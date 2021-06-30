@@ -1,0 +1,16 @@
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cartList,
+.cartList th {
+  border: 1px solid #f1f1f1;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f6f6fa;
+}
